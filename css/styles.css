@@ -7,20 +7,35 @@ body {
   color: rgb(3, 42, 90);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  position: relative;
+  border: solid rgb(218, 117, 34);
+  border-width: 1px;
+  margin: auto;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 3%;
-  border: solid rgb(218, 34, 34);
-  border-width: 1px;
+  margin-top: 5%;
   position: relative;
 }
 
-.navigation {
-  width: 50%;
-  position: absolute;
-  height: 100vh;
-  border: solid black;
+.emphasis {
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.container {
+  display: flex;
+  border: solid rgb(218, 34, 34);
   border-width: 1px;
+  padding: 0;
+}
+
+.navigation {
+  width: 40%;
+  height: 100vh;
+  position: fixed;
+  /* border: solid black;
+  border-width: 1px; */
 }
 
 .navigation h1 {
@@ -28,13 +43,14 @@ body {
   padding: 0;
   font-size: 50px;
   text-align: center;
-  width: inherit;
-  border: solid rgb(233, 58, 133);
-  border-width: 1px;
+  /* border: solid rgb(233, 58, 133);
+  border-width: 1px; */
 }
 
 .navigation ul {
   list-style-type: none;
+  /* border: solid rgb(101, 39, 66);
+  border-width: 1px; */
 }
 
 
@@ -43,6 +59,25 @@ body {
 }
 
 .content {
-  width: 50%;
-  margin-left: 50%;
+  width: 60%;
+  margin-left: 45%;
+  /* border: solid rgb(133, 144, 31);
+  border-width: 1px; */
+}
+
+.about {
+  border-bottom: solid rgb(31, 72, 144);
+  border-width: 2px;
+}
+
+img.about {
+  margin-right: 2%;
+  width: 25%;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(3, 42, 90, 0.3);
+}
+
+.about p {
+  margin-left: 1px;
 }

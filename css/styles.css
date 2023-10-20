@@ -4,17 +4,33 @@ html {
 
 body {
   background-color: rgb(219, 245, 255);
-  color: rgb(90, 130, 180);
+  color: rgb(3, 42, 90);
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 5%;
+  margin-top: 3%;
+  border: solid rgb(218, 34, 34);
+  border-width: 1px;
+  position: relative;
 }
 
 .navigation {
   width: 50%;
-  position: fixed;
+  position: absolute;
   height: 100vh;
+  border: solid black;
+  border-width: 1px;
+}
+
+.navigation h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  text-align: center;
+  width: inherit;
+  border: solid rgb(233, 58, 133);
+  border-width: 1px;
 }
 
 .navigation ul {
@@ -24,5 +40,9 @@ body {
 
 .navigation a {
   text-decoration: none;
-  display: block;
+}
+
+.content {
+  width: 50%;
+  margin-left: 50%;
 }

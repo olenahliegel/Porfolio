@@ -61,8 +61,8 @@ body {
 .content {
   width: 60%;
   margin-left: 45%;
-  /* border: solid rgb(133, 144, 31);
-  border-width: 1px; */
+  border: solid rgb(239, 10, 10);
+  border-width: 1px;
 }
 
 .about {
@@ -80,4 +80,44 @@ img.about {
 
 .about p {
   margin-left: 1px;
+}
+
+.projects-container {
+  border-bottom: solid rgb(31, 72, 144);
+  border-width: 2px;
+  margin: 0.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+div.project {
+  border: solid rgb(35, 147, 222);
+  border-width: 2px;
+  width: 100%;
+  margin: 5px;
+
+}
+
+.project img {
+  clear: left;
+  width: 15%;
+  border: solid rgb(31, 72, 144);
+  border-width: 2px;
+  margin: 0;
+  margin-right: 25px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(3, 42, 90, 0.3);
+  float: left;
+
+}
+
+
+.experience {
+  border: solid rgb(0, 195, 255);
+}
+
+.projects-link {
+  border: solid rgb(231, 7, 175);
+  border-width: 2px;
+
 }

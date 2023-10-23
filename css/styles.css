@@ -1,3 +1,4 @@
+/* Global Styles */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 6%;
@@ -17,7 +18,7 @@ body {
   position: relative;
 }
 
-
+/* Typography Styles */
 .emphasis {
   font-style: italic;
   font-weight: bold;
@@ -31,6 +32,7 @@ body {
   font-weight: bold;
 }
 
+/* Page Layout */
 .container {
   display: flex;
   padding: 0;
@@ -42,6 +44,7 @@ body {
   position: fixed;
 }
 
+/* Navigation Styles */
 .navigation h1 {
   margin: 0;
   padding: 0;
@@ -93,23 +96,14 @@ body {
   color: rgb(3, 42, 90);
 }
 
-
+/* Content Styles */
 .content {
   width: 60%;
   margin-left: 45%;
-  /* border: solid rgb(239, 10, 10);
-  border-width: 1px; */
 }
 
+/* About Section */
 #about {
-  margin-bottom: 10%;
-}
-
-#projects {
-  margin-bottom: 10%;
-}
-
-#experience {
   margin-bottom: 10%;
 }
 
@@ -128,6 +122,12 @@ img.about {
 
 .about p {
   margin-left: 1px;
+  text-align: justify;
+}
+
+/* Projects Section */
+#projects {
+  margin-bottom: 10%;
 }
 
 .projects-container {
@@ -164,6 +164,7 @@ img.project {
 
 }
 
+/* Technology Styles */
 .technology-container {
   display: flex;
   justify-content: center;
@@ -181,6 +182,7 @@ img.project {
   font-size: 14px;
 }
 
+/* Project link Styles */
 .project-link {
   text-decoration: none;
 }
@@ -188,7 +190,7 @@ img.project {
 .project-link:hover {
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(3, 42, 90, 0.3);
-  background-color: rgba (219, 245, 255, 0.7);
+  background-color: rgba(219, 245, 255, 0.7);
   transition: box-shadow 0.5s ease;
   transition: opacity 0.3s ease;
 }
@@ -203,6 +205,7 @@ div.project:hover>.project-description>h3>.external-link-icon {
   width: 25px;
 }
 
+/* Full version link Styles */
 .full-version-link {
   padding-bottom: 10px;
   padding-top: 10px;
@@ -230,6 +233,11 @@ div.project:hover>.project-description>h3>.external-link-icon {
   background-color: rgb(219, 245, 255);
 }
 
+/* Expirience Section */
+#experience {
+  margin-bottom: 10%;
+}
+
 .experience-container {
   border-bottom: solid rgb(31, 72, 144);
   border-width: 2px;
@@ -244,11 +252,12 @@ div.project:hover>.project-description>h3>.external-link-icon {
 .experience:hover {
   border-radius: 10px;
   box-shadow: 5px 5px 15px rgba(3, 42, 90, 0.3);
-  background-color: rgba (219, 245, 255, 0.7);
+  background-color: rgba(219, 245, 255, 0.7);
   transition: box-shadow 0.5s ease;
   transition: opacity 0.3s ease;
 }
 
+/* Expirience Description Styles */
 .dates {
   width: 25%;
   margin-right: 3%;
@@ -296,6 +305,7 @@ div.project:hover>.project-description>h3>.external-link-icon {
   text-align: justify;
 }
 
+/* Hobbies Section */
 .hobbies-container {
   margin-top: 0;
   margin-bottom: 10px;

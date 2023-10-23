@@ -4,7 +4,8 @@
 #### By _**Olena Shliegel**_
 
 
-#### _This is MVP version of a developer portfolio. You can find the working version of the site using next link: ```https://olenahliegel.github.io/Portfolio/```_
+#### _This is MVP version of a developer portfolio. You can find the working version of the site using next link:_ 
+#### _```https://olenahliegel.github.io/Portfolio/```_
 
 
 ## Technologies Used

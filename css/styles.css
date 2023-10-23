@@ -40,14 +40,50 @@ body {
   text-align: center;
 }
 
-.navigation ul {
-  list-style-type: none;
+.navigation h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  text-align: center;
 }
 
+.navigation ul {
+  list-style-type: none;
+  margin: auto;
+  margin: 5%;
+}
+
+.navigation li {
+  border: solid rgb(3, 42, 90);
+  background-color: rgb(3, 42, 90);
+  border-width: 1px;
+  border-radius: 10px;
+  margin: 5%;
+  box-shadow: 5px 5px 15px rgba(3, 42, 90, 0.3);
+  background-color: rgba (219, 245, 255, 0.7);
+  transition: box-shadow 0.5s ease;
+  transition: opacity 0.3s ease;
+  transition: background-color 0.3s;
+}
+
+.navigation li:hover {
+  background-color: rgb(219, 245, 255);
+  transition: background-color 1s, color 1s;
+}
 
 .navigation a {
   text-decoration: none;
+  display: block;
+  color: rgb(219, 245, 255);
+  font-size: 50px;
+  margin: 5%;
+  width: 100%;
 }
+
+.navigation li:hover a {
+  color: rgb(3, 42, 90);
+}
+
 
 .content {
   width: 60%;
@@ -89,7 +125,7 @@ div.project {
 
 }
 
-.project img {
+img.project {
   clear: left;
   width: 15%;
   border: solid rgb(31, 72, 144);
@@ -125,15 +161,11 @@ div.project {
   background-color: rgb(3, 42, 90);
   border: none;
   border-radius: 10px;
-  color: #FFFFFF;
+  color: rgb(219, 245, 255);
   font-family: Arial, sans-serif;
   margin-right: 1%;
   padding: 10px 10px;
   font-size: 14px;
-}
-
-.technology:hover {
-  background-color: #55902a;
 }
 
 .project-link {
@@ -146,4 +178,14 @@ div.project {
   background-color: rgba (219, 245, 255, 0.7);
   transition: box-shadow 0.5s ease;
   transition: opacity 0.3s ease;
+}
+
+.external-link-icon {
+  background-color: transparent;
+  width: 20px;
+}
+
+.external-link-icon:hover {
+  background-color: transparent;
+  width: 30px;
 }

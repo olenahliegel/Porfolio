@@ -5,7 +5,7 @@
 
 
 #### _This is MVP version of a developer portfolio. You can find the working version of the site using next link:_ 
-#### _```https://olenahliegel.github.io/Portfolio/```_
+#### _[GitHub page](https://olenahliegel.github.io/Porfolio/)_
 
 
 ## Technologies Used

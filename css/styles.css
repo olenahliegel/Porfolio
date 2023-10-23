@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6%;
 }
 
 body {
@@ -16,10 +17,14 @@ body {
   position: relative;
 }
 
+
 .emphasis {
   font-style: italic;
   font-weight: bold;
+}
 
+.emphasis-italic {
+  font-style: italic;
 }
 
 .container {
@@ -92,6 +97,18 @@ body {
   border-width: 1px; */
 }
 
+#about {
+  margin-bottom: 10%;
+}
+
+#projects {
+  margin-bottom: 10%;
+}
+
+#experience {
+  margin-bottom: 10%;
+}
+
 .about {
   border-bottom: solid rgb(31, 72, 144);
   border-width: 2px;
@@ -110,7 +127,7 @@ img.about {
 }
 
 .projects-container {
-  border-bottom: solid rgb(236, 80, 8);
+  border-bottom: solid rgb(31, 72, 144);
   border-width: 2px;
   margin: 0;
   display: flex;
@@ -138,18 +155,6 @@ img.project {
 
 }
 
-
-/* .experience {
-  border: solid rgb(0, 195, 255);
-  border-width: 2px;
-} */
-
-/* .projects-link {
-  border: solid rgb(231, 7, 175);
-  border-width: 2px;
-
-} */
-
 .technology-container {
   display: flex;
   justify-content: center;
@@ -162,7 +167,6 @@ img.project {
   border: none;
   border-radius: 10px;
   color: rgb(219, 245, 255);
-  font-family: Arial, sans-serif;
   margin-right: 1%;
   padding: 10px 10px;
   font-size: 14px;
@@ -185,7 +189,34 @@ img.project {
   width: 20px;
 }
 
-.external-link-icon:hover {
+div.project:hover>.project-description>h3>.external-link-icon {
   background-color: transparent;
-  width: 30px;
+  width: 25px;
+}
+
+.projects-link {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.projects-link a {
+  text-decoration: none;
+  color: rgb(3, 42, 90);
+  font-size: 20px;
+}
+
+.projects-link a:hover {
+  font-size: 25px;
+  transition: 0.3s ease;
+  background-color: rgb(3, 42, 90);
+  border: none;
+  border-radius: 10px;
+  color: rgb(219, 245, 255);
+  padding: 10px 10px;
+}
+
+.projects-link a:hover img {
+  width: 25px;
+  transition: 0.3s ease;
+  background-color: rgb(219, 245, 255);
 }

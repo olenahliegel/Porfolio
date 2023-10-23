@@ -4,12 +4,11 @@ html {
 
 body {
   background-color: rgb(219, 245, 255);
+  transition: background-color 0.3s;
   color: rgb(3, 42, 90);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   position: relative;
-  border: solid rgb(218, 117, 34);
-  border-width: 1px;
   margin: auto;
   margin-left: 5%;
   margin-right: 5%;
@@ -25,8 +24,6 @@ body {
 
 .container {
   display: flex;
-  border: solid rgb(218, 34, 34);
-  border-width: 1px;
   padding: 0;
 }
 
@@ -34,8 +31,6 @@ body {
   width: 40%;
   height: 100vh;
   position: fixed;
-  /* border: solid black;
-  border-width: 1px; */
 }
 
 .navigation h1 {
@@ -43,14 +38,10 @@ body {
   padding: 0;
   font-size: 50px;
   text-align: center;
-  /* border: solid rgb(233, 58, 133);
-  border-width: 1px; */
 }
 
 .navigation ul {
   list-style-type: none;
-  /* border: solid rgb(101, 39, 66);
-  border-width: 1px; */
 }
 
 
@@ -61,8 +52,8 @@ body {
 .content {
   width: 60%;
   margin-left: 45%;
-  border: solid rgb(239, 10, 10);
-  border-width: 1px;
+  /* border: solid rgb(239, 10, 10);
+  border-width: 1px; */
 }
 
 .about {
@@ -83,18 +74,18 @@ img.about {
 }
 
 .projects-container {
-  border-bottom: solid rgb(31, 72, 144);
+  border-bottom: solid rgb(236, 80, 8);
   border-width: 2px;
-  margin: 0.5%;
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
 
 div.project {
-  border: solid rgb(35, 147, 222);
-  border-width: 2px;
   width: 100%;
   margin: 5px;
+  cursor: pointer;
+  color: rgb(3, 42, 90);
 
 }
 
@@ -112,12 +103,47 @@ div.project {
 }
 
 
-.experience {
+/* .experience {
   border: solid rgb(0, 195, 255);
-}
+  border-width: 2px;
+} */
 
-.projects-link {
+/* .projects-link {
   border: solid rgb(231, 7, 175);
   border-width: 2px;
 
+} */
+
+.technology-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.technology {
+  background-color: rgb(3, 42, 90);
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  margin-right: 1%;
+  padding: 10px 10px;
+  font-size: 14px;
+}
+
+.technology:hover {
+  background-color: #55902a;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.project-link:hover {
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(3, 42, 90, 0.3);
+  background-color: rgba (219, 245, 255, 0.7);
+  transition: box-shadow 0.5s ease;
+  transition: opacity 0.3s ease;
 }
